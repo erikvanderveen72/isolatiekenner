@@ -96,7 +96,7 @@ export default function HRGlasPage() {
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Isolatiesoorten', href: '/#isolatie-soorten' },
-          { label: 'HR++ Glas' },
+          { label: 'HR++ Glas', href: '/hr-glas' },
         ]}
       />
 

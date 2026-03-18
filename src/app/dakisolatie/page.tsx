@@ -64,7 +64,7 @@ export default function DakisolatieePage() {
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Isolatiesoorten', href: '/#isolatie-soorten' },
-          { label: 'Dakisolatie' },
+          { label: 'Dakisolatie', href: '/dakisolatie' },
         ]}
       />
 

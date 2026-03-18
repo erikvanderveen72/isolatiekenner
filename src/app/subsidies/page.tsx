@@ -115,7 +115,7 @@ export default function SubsidiesPage() {
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Informatie', href: '/#' },
-          { label: 'Subsidies' },
+          { label: 'Subsidies', href: '/subsidies' },
         ]}
       />
 

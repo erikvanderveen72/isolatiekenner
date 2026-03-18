@@ -75,7 +75,7 @@ export default function VloerisolatieEPage() {
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Isolatiesoorten', href: '/#isolatie-soorten' },
-          { label: 'Vloerisolatie' },
+          { label: 'Vloerisolatie', href: '/vloerisolatie' },
         ]}
       />
 

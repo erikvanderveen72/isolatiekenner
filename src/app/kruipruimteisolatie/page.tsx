@@ -85,7 +85,7 @@ export default function KruipruimteisolatieEPage() {
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Isolatiesoorten', href: '/#isolatie-soorten' },
-          { label: 'Kruipruimteisolatie' },
+          { label: 'Kruipruimteisolatie', href: '/kruipruimteisolatie' },
         ]}
       />
 

@@ -81,7 +81,7 @@ export default function GevelisolatieEPage() {
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Isolatiesoorten', href: '/#isolatie-soorten' },
-          { label: 'Gevelisolatie' },
+          { label: 'Gevelisolatie', href: '/gevelisolatie' },
         ]}
       />
 

@@ -70,7 +70,7 @@ export default function SpouwmuurisolatieEPage() {
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Isolatiesoorten', href: '/#isolatie-soorten' },
-          { label: 'Spouwmuurisolatie' },
+          { label: 'Spouwmuurisolatie', href: '/spouwmuurisolatie' },
         ]}
       />
 
