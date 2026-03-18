@@ -14,8 +14,6 @@ import {
   Banknote,
   RefreshCw,
   Shield,
-  Thermometer,
-  Clock,
   ArrowRight,
 } from 'lucide-react';
 
@@ -193,14 +191,7 @@ export default function HomePage() {
 
       {/* ===== STATS BAR ===== */}
       <section className="-mt-8 relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
-        <StatsBar
-          stats={[
-            { label: 'Warmteverlies via dak', value: '30%', icon: Thermometer, suffix: '' },
-            { label: 'Gemiddelde besparing/jaar', value: '€500+', icon: Banknote, suffix: '' },
-            { label: 'ISDE Budget 2026', value: '€509 mln', icon: Award, suffix: '' },
-            { label: 'Terugverdientijd', value: '2-7 jaar', icon: Clock, suffix: '' },
-          ]}
-        />
+        <StatsBar />
       </section>
 
       {/* ===== CALCULATOR SECTION ===== */}
