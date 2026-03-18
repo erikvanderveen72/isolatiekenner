@@ -121,7 +121,7 @@ export default function GevelisolatieEPage() {
               </h3>
               <ul className="space-y-2 text-stone-700 text-sm">
                 <li>✓ Bouwjaar voor 1920 (massieve muur)</li>
-                <li>✓ Zeer dikke muren (>25cm)</li>
+                <li>✓ Zeer dikke muren (&gt;25cm)</li>
                 <li>✓ Geen spouwmuur controleerbaar</li>
                 <li>✓ Koude vochtproblemen gevel</li>
                 <li>✓ Hoge warmteverlies gevel</li>
