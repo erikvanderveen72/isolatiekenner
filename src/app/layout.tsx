@@ -63,21 +63,16 @@ export default function RootLayout({
         <meta name="geo.position" content="52.1326;5.2913" />
         <meta name="ICBM" content="52.1326, 5.2913" />
 
-        {/* Google Analytics Placeholder */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-XXXXXXX');
-            `,
-          }}
-        />
+        {/* Google Analytics - vervang G-XXXXXXX met je echte GA4 ID */}
+        {/*
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XXXXXXX');
+        `}} />
+        */}
 
         {/* JSON-LD Schema */}
         <script

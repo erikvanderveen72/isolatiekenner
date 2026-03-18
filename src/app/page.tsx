@@ -321,6 +321,22 @@ export default function HomePage() {
             Veelgestelde Vragen
           </h2>
           <FAQSchema items={faqItems} />
+          <div className="space-y-4">
+            {faqItems.map((item, idx) => (
+              <details
+                key={idx}
+                className="group bg-white rounded-xl border border-border hover:border-primary/20 transition-all"
+              >
+                <summary className="flex items-center justify-between cursor-pointer p-6 font-semibold text-text-main">
+                  {item.question}
+                  <span className="text-primary ml-4 shrink-0 transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-text-muted border-t border-border pt-4">
+                  {item.answer}
+                </div>
+              </details>
+            ))}
+          </div>
         </div>
       </section>
 
