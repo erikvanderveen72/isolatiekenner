@@ -38,14 +38,14 @@ export default function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
+      className={`sticky top-0 z-50 overflow-visible transition-all duration-300 ${
         isScrolled
           ? 'bg-white text-stone-900 shadow-md'
           : 'bg-gradient-to-b from-stone-950/90 via-stone-900/70 to-transparent text-white'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-visible">
+        <div className="flex items-center justify-between h-16 md:h-20 overflow-visible">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={isScrolled ? 'text-emerald-600' : 'text-emerald-400'}>
